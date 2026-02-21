@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Designo Tech Studio</title>
+
+    <meta name="google-site-verification" content="google61bb5b829a98fa9d.html" />
+
+</head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Designo | Web Development & Graphic Designing</title>
+
+<style>
+
+/* UNIQUE MODERN THEME */
+
+body{
+margin:0;
+font-family:'Segoe UI', Arial, sans-serif;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+/* HEADER */
+
+header{
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+}
+
+.logo-container{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-text{
+font-size:28px;
+font-weight:bold;
+}
+
+.logo-text span{
+color:#00ffd5;
+}
+
+/* NAV */
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00ffd5;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h2{
+font-size:36px;
+color:#00ffd5;
+}
+
+/* SECTION */
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+}
+
+/* CARD */
+
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(8px);
+width:260px;
+padding:20px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(0,255,213,0.15);
+}
+
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+.contact{
+background:rgba(0,0,0,0.4);
+padding:50px;
+}
+
+/* GMAIL BUTTON */
+
+.email-button{
+display:inline-block;
+margin-top:15px;
+padding:14px 25px;
+background:#00ffd5;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+transition:0.3s;
+}
+
+.email-button:hover{
+background:white;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo-container">
+
+<!-- SVG LOGO -->
+<svg width="45" height="45" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#00ffd5"/>
+<stop offset="100%" style="stop-color:#00aaff"/>
+</linearGradient>
+</defs>
+<circle cx="50" cy="50" r="45" fill="url(#grad)"/>
+<text x="50%" y="58%" text-anchor="middle"
+font-size="50"
+font-family="Arial"
+fill="black"
+font-weight="bold">D</text>
+</svg>
+
+<div class="logo-text">
+Design<span>o</span>
+</div>
+
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#designs">Designs</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h2>Professional Web Development & Graphic Designing</h2>
+
+<p>
+Modern websites, hosting, and creative graphic designs.<br>
+Build your business professionally with Designo.
+</p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Web Development</h3>
+<p>Fast, secure, modern websites.</p>
+</div>
+
+<div class="card">
+<h3>Web Hosting</h3>
+<p>Reliable hosting with 99.9% uptime.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Designing</h3>
+<p>Logo, posters, banners & branding.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- DESIGN EXAMPLES -->
+
+<section class="section" id="designs">
+
+<h2>Our Work Examples</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500">
+<p>Creative Logo Design</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500">
+<p>Modern Website UI</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=500">
+<p>Professional Poster</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2>Contact Me</h2>
+
+<p>Name: Hariprasath</p>
+
+<p>Email: hariprasathkr07@gmail.com</p>
+
+<!-- DIRECT GMAIL LINK -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=hariprasathkr07@gmail.com&su=Designo Service Request&body=Hello Hariprasath, I want your service."
+target="_blank"
+class="email-button">
+
+Contact via Gmail
+
+</a>
+
+<p>This will open Gmail directly.</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Designo | Created by Hariprasath
+
+</footer>
+
+</body>
+</html>
